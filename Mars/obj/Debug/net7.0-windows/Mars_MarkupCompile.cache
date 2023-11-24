@@ -9,12 +9,12 @@ Mars
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\Project\Raider\Mars\Mars\App.xaml
-11407045341
+D:\Project\Raider\Mars\Mars\Windows\App.xaml
+2-897533477
 
-3-1233169557
+4-1828954326
 198-306949569
-MainWindow.xaml;
+Windows\AdminWindow.xaml;Windows\AuthWindow.xaml;
 
-True
+False
 
