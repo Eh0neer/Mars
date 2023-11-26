@@ -29,6 +29,7 @@
 
     <ItemGroup>
       <Folder Include="DataBase\" />
+      <Folder Include="Interfaces\" />
     </ItemGroup>
 
     <ItemGroup>
