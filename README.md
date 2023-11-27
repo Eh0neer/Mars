@@ -1,8 +1,10 @@
 ### Репозиторий "Mars"
 
 <p align="center">
-  <img src="[https://drive.google.com/file/d/1HlXijrqUEI-HgdesLXbC0rCjERtJyoyd/view?usp=drive_link]" alt="Mars Logo">
+  <img src="https://github.com/FeerSSQ/Mars/assets/114866823/03bb583f-2f10-4af4-bad9-a2e058b91052" alt="Mars Logo" width="400">
 </p>
+
+
 
 ---
 
