@@ -28,10 +28,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Resource Include="Images\AuthLogo.png">
         <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       </Resource>

@@ -101,9 +101,12 @@ public partial class MarsDbContext : DbContext
 
             entity.Property(e => e.Orderid).HasColumnName("orderid");
             entity.Property(e => e.Orderdate).HasColumnName("orderdate");
-            entity.Property(e => e.Paymentmethod)
-                .HasMaxLength(255)
-                .HasColumnName("paymentmethod");
+
+            // Use the Enum string representation for PostgreSQL
+            entity.Property(e => e.PaymentMethod)
+                .HasColumnName("paymentmethod")
+                .HasConversion<string>();
+
             entity.Property(e => e.Status)
                 .HasMaxLength(255)
                 .HasColumnName("status");
@@ -118,6 +121,8 @@ public partial class MarsDbContext : DbContext
                 .HasForeignKey(d => d.Waiterid)
                 .HasConstraintName("orders_waiterid_fkey");
         });
+
+
 
         modelBuilder.Entity<Orderitem>(entity =>
         {

@@ -1,27 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using Mars.Enums;
 
-namespace Mars;
-
-public partial class Order
+namespace Mars
 {
-    public int Orderid { get; set; }
+    public partial class Order
+    {
+        public int Orderid { get; set; }
 
-    public DateOnly Orderdate { get; set; }
+        public DateOnly Orderdate { get; set; }
 
-    public int? Tableid { get; set; }
+        public int? Tableid { get; set; }
 
-    public int? Waiterid { get; set; }
+        public int? Waiterid { get; set; }
 
-    public string Status { get; set; } = null!;
+        // Use the OrderStatus enum instead of string
+        public OrderStatus Status { get; set; } = OrderStatus.Accepted;
 
-    public string Paymentmethod { get; set; } = null!;
+        // Use the PaymentMethod enum instead of string
+        public PaymentMethod PaymentMethod { get; set; } = PaymentMethod.Cash;
 
-    public virtual ICollection<Cashorder> Cashorders { get; } = new List<Cashorder>();
+        public virtual ICollection<Cashorder> Cashorders { get; } = new List<Cashorder>();
 
-    public virtual ICollection<Orderitem> Orderitems { get; } = new List<Orderitem>();
+        public virtual ICollection<Orderitem> Orderitems { get; } = new List<Orderitem>();
 
-    public virtual Table? Table { get; set; }
+        public virtual Table? Table { get; set; }
 
-    public virtual User? Waiter { get; set; }
+        public virtual User? Waiter { get; set; }
+    }
 }
