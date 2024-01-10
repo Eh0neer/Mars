@@ -42,3 +42,7 @@ D:\Project\Raider\Mars\Mars\bin\Debug\net7.0-windows\Npgsql.dll
 D:\Project\Raider\Mars\Mars\bin\Debug\net7.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Project\Raider\Mars\Mars\obj\Debug\net7.0-windows\Mars.csproj.AssemblyReference.cache
 D:\Project\Raider\Mars\Mars\obj\Debug\net7.0-windows\Mars.csproj.CopyComplete
+D:\Project\Raider\Mars\Mars\obj\Debug\net7.0-windows\Windows\CookWindow.g.cs
+D:\Project\Raider\Mars\Mars\obj\Debug\net7.0-windows\Windows\CookWindow.baml
+D:\Project\Raider\Mars\Mars\obj\Debug\net7.0-windows\Windows\AddNewUser.g.cs
+D:\Project\Raider\Mars\Mars\obj\Debug\net7.0-windows\Windows\AddNewUser.baml

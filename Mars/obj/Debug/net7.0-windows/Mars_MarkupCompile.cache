@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Project\Raider\Mars\Mars\Windows\App.xaml
-3891616514
+5588160036
 
-32-1620620728
+35-2138685139
 212902995831
-Windows\AdminWindow.xaml;Windows\AuthWindow.xaml;Windows\WaiterWindow.xaml;
+Windows\AddNewUser.xaml;Windows\AdminWindow.xaml;Windows\AuthWindow.xaml;Windows\CookWindow.xaml;Windows\WaiterWindow.xaml;
 
 False
 

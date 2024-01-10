@@ -10,4 +10,6 @@ public partial class Usertype
     public string Usertypename { get; set; } = null!;
 
     public virtual ICollection<User> Users { get; } = new List<User>();
+    
+    
 }

@@ -26,4 +26,6 @@ public partial class User
     public virtual Usertype? Usertype { get; set; }
 
     public virtual ICollection<Waiterassignment> Waiterassignments { get; } = new List<Waiterassignment>();
+    
+    
 }

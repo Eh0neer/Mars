@@ -46,7 +46,7 @@
 
         <!-- Таблица сотрудников -->
         <Border Grid.Column="0" Grid.Row="1" Height="520" Width="950" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"  CornerRadius="10">
-            <DataGrid x:Name="EmployeesGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10" Grid.Row="1">
+            <DataGrid x:Name="EmployeesGrid" AutoGenerateColumns="True" ItemsSource="{Binding Users}" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10" Grid.Row="1">
                 <DataGrid.Columns>
                     <!-- Ваши столбцы, например: -->
                     <!--<DataGridTextColumn Header="Имя" Binding="{Binding Name}" />-->
@@ -58,13 +58,12 @@
             <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <Button Content="Добавить" Click="CreateEmployee"/>
                 <Button Content="Удалить" Click="DeleteEmployee"/>
-                <Button Content="Редактировать" Click="EditEmployee"/>
-                <Button Content="Сохранить" Click="Save"/>
-                <Button Content="Отмена" Click="Cancellation"/>
                 <Button Content="Обновить" Click="RefreshList"/>
+                
             </StackPanel>
-        <Border Grid.Column="1" Grid.Row="1" Height="520" Width="230" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center"  CornerRadius="10">
+    <Border Grid.Column="1" Grid.Row="1" Height="520" Width="230" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center"  CornerRadius="10">
             
         </Border>
+        <Button Grid.Column="1" Grid.Row="2" Width="100" Content="Выйти" Click="Exit" HorizontalAlignment="Right" />
     </Grid>
 </Window>
